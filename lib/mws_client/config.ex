@@ -10,7 +10,7 @@ defmodule MWSClient.Config do
     :mws_auth_token,
     :seller_id,
     :aws_secret_access_key,
-    site_id: "ATVPDKIKX0DER",
+    site_id: "A1F83G8C2ARO7P", # UK
     signature_method: "HmacSHA256",
     signature_version: "2",
   ]
