@@ -4,7 +4,7 @@ defmodule MWSClient.Mixfile do
   def project do
     [app: :mws_client,
      version: "0.0.1",
-     elixir: "~> 1.3",
+     elixir: "~> 1.6",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      description: "An Amazon MWS API client in Elixir",
@@ -37,10 +37,10 @@ defmodule MWSClient.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [ {:csv, "~> 1.4.2"},
+    [ {:csv, "~> 1.4.4"},
       {:elixir_xml_to_map, "~> 0.1.1"},
-      {:httpoison, "~> 0.9.2"},
-      { :inflex, "~> 1.7.0" }, #camelize
+      {:httpoison, "~> 0.13"},
+      {:inflex, "~> 1.7.0"}, #camelize
       {:ex_doc, "~> 0.10", only: :dev},
     ]
   end
