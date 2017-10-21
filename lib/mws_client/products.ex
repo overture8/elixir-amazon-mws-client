@@ -2,7 +2,7 @@ defmodule MWSClient.Products do
 
   @version "2011-10-01"
   @path "/Products/#{@version}"
-  @default_market "ATVPDKIKX0DER"
+  @default_market "A1F83G8C2ARO7P"
 
   alias MWSClient.Utils
   alias MWSClient.Operation
