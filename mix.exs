@@ -3,7 +3,7 @@ defmodule MWSClient.Mixfile do
 
   def project do
     [app: :mws_client,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.6",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
